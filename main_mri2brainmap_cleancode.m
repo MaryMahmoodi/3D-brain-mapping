@@ -3,12 +3,12 @@ clear
 clc
 tic,
 %% initial parameters
-method= 'cubic' ;          % cubic % RBF % linear % avg 
+method= 'cubic';           % cubic % RBF % linear % avg 
 fprintf('your electrode labels should be aligned with uppercase or lower case no difference....  ');
 sprintf(' Cz,Cpz,Pz,Poz,Oz,Iz,Fpz,AFz,Fz,Fcz,O2,Po4,P2,Cp2,P4,Po8,P10,T6,P6,Tp8,Cp6,Cp4,C2,C4,C6,T4,Ft8,Fc6,Fc4,F4,F6,F8,AF8,Fc2,F2,AF4,Fp2,P1,P3,Po7,O1,Po3,Fc1,F1,AF3,Fp1,AF7,F3,F5,F7,Ft7,Fc5,Fc3,C1,Cp1,C3,C5,T3,Tp7,Cp5,Cp3,P5,T5,P9,nasion,lpa,rpa')
 
 Channels= {'Cz' 'C4' 'T4' 'C3' 'T3' 'Fz' 'F4' 'F8' 'F3' 'F7' 'Fpz' 'Fp2' 'Fp1' 'Pz' 'P3' 'T5' 'P4' 'T6' 'Oz' 'O1' 'O2'}';
- Values=[0.42  0.75  0.85  0.45  0.43  0.4  0.43  0.55  0.35  0.37  0.25  0.39  0.35  0.78  0.6  0.6  1  0.95  0.8  0.6  0.87]';
+Values=[0.42  0.75  0.85  0.45  0.43  0.4  0.43  0.55  0.35  0.37  0.25  0.39  0.35  0.78  0.6  0.6  1  0.95  0.8  0.6  0.87]';
 
 
 % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % Channels={'Cz'; 'C4'; 'T4'; 'C3'; 'T3'; 'Fz'; 'F4'; 'F8'; 'F3'; 'F7'; 'Fpz'; 'Fp2'; 'Fp1'; 'Pz'; 'P3'; 'T5'; 'P4'; 'T6'; 'Oz'; 'O1'; 'O2'};
