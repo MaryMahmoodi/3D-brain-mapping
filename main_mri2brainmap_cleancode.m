@@ -2,6 +2,7 @@ close all
 clear 
 clc
 tic,
+
 %% initial parameters
 method= 'cubic';           % cubic % RBF % linear % avg 
 fprintf('your electrode labels should be aligned with uppercase or lower case no difference....  ');
